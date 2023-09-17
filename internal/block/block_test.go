@@ -29,7 +29,6 @@ func TestReverseRows(t *testing.T) {
     }
 }
 
-
 func TestTranspose(t *testing.T) {
     var p [3][3]marble.Marble
     for i := 0; i < 3; i++ {
