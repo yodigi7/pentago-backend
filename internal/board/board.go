@@ -2,8 +2,8 @@ package board
 
 import (
 	"fmt"
-	"internal/block"
-	"internal/marble"
+	"pentago-backend/internal/block"
+	"pentago-backend/internal/marble"
 )
 
 type Board struct {
@@ -29,4 +29,3 @@ func (b Board) PlaceMarble(c, d, x, y, t int) Board {
 
 	return b
 }
-

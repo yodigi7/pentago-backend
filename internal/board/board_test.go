@@ -1,8 +1,8 @@
 package board
 
 import (
-	"internal/block"
-	"internal/marble"
+	"pentago-backend/internal/block"
+	"pentago-backend/internal/marble"
 	"testing"
 )
 
